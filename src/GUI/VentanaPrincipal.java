@@ -170,30 +170,35 @@ public class VentanaPrincipal extends javax.swing.JDialog {
 
         jMenu4.setBackground(new java.awt.Color(51, 255, 255));
         jMenu4.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Categoría.png"))); // NOI18N
         jMenu4.setText("Categoría");
         jMenu4.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
         jMenuItem9.setBackground(new java.awt.Color(0, 51, 51));
         jMenuItem9.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
         jMenuItem9.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/crearCategoría.png"))); // NOI18N
         jMenuItem9.setText("Crear");
         jMenu4.add(jMenuItem9);
 
         jMenuItem10.setBackground(new java.awt.Color(0, 51, 51));
         jMenuItem10.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
         jMenuItem10.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/modificarCategoría.png"))); // NOI18N
         jMenuItem10.setText("Modificar");
         jMenu4.add(jMenuItem10);
 
         jMenuItem11.setBackground(new java.awt.Color(0, 51, 51));
         jMenuItem11.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
         jMenuItem11.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/consultaCategoría.png"))); // NOI18N
         jMenuItem11.setText("Consultar");
         jMenu4.add(jMenuItem11);
 
         jMenuItem12.setBackground(new java.awt.Color(0, 51, 51));
         jMenuItem12.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
         jMenuItem12.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/borrarCategoría.png"))); // NOI18N
         jMenuItem12.setText("Borrar");
         jMenu4.add(jMenuItem12);
 
