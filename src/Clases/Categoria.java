@@ -5,12 +5,15 @@
  */
 package Clases;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Marco
  */
 public class Categoria {
     private String nombre;
+    private ArrayList<Item> items = new ArrayList();
     
     public Categoria(String nombre){
         this.nombre = nombre;
@@ -22,5 +25,10 @@ public class Categoria {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    
+     public void agregarItem(Item item)
+    {
+        items.add(item);
     }
 }
