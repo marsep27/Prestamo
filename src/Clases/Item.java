@@ -5,6 +5,8 @@
  */
 package Clases;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Marco
@@ -13,6 +15,8 @@ public class Item {
     private String nombre;
     private String codigo;
     private String descripcion;
+    private ArrayList<Categoria> categorias = new ArrayList();
+    private ArrayList<Tipo> tipos = new ArrayList();
     
     public Item(String nombre, String codigo, String descripcion){
         this.nombre = nombre;
@@ -42,5 +46,12 @@ public class Item {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
-    }    
+    }
+    public String toString() {
+        String result;
+        result = "Item "+ "\n Nombre: " + nombre + "\n Codigo: " + codigo + "\nDescripción: " + descripcion;
+        System.out.println("_______________\n");
+        return result;
+    }
+    
 }

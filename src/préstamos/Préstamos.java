@@ -5,7 +5,7 @@
  */
 package préstamos;
 
-import GUI.VentanaPrincipal;
+import GUI.VP;
 
 /**
  *
@@ -17,7 +17,8 @@ public class Préstamos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        VentanaPrincipal.getInstance();
+        VP ventana = new VP(); 
+        ventana.setVisible(true);
     }
     
 }
