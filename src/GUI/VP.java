@@ -27,201 +27,295 @@ public class VP extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        crearItem = new javax.swing.JMenuItem();
-        modificarItem = new javax.swing.JMenuItem();
-        borrarItem = new javax.swing.JMenuItem();
-        consultarItem = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        crearUsuario = new javax.swing.JMenuItem();
-        modificarUsuario = new javax.swing.JMenuItem();
-        borrarUsuario = new javax.swing.JMenuItem();
-        consultarUsuario = new javax.swing.JMenuItem();
+        jDesktopPane1 = new javax.swing.JDesktopPane();
+        jMenuBar2 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
-        crearCategoria = new javax.swing.JMenuItem();
-        modificarCategoria = new javax.swing.JMenuItem();
-        borrarCategoria = new javax.swing.JMenuItem();
-        consutarCategoria = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
-        crearTipo = new javax.swing.JMenuItem();
-        modificarTipo = new javax.swing.JMenuItem();
-        borrarTipo = new javax.swing.JMenuItem();
-        consultarTipo = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem11 = new javax.swing.JMenuItem();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
+        jMenuItem17 = new javax.swing.JMenuItem();
+        jMenuItem18 = new javax.swing.JMenuItem();
+        jMenuItem19 = new javax.swing.JMenuItem();
+        jMenuItem20 = new javax.swing.JMenuItem();
+        jMenuItem21 = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
+        jMenuItem22 = new javax.swing.JMenuItem();
+        jMenuItem23 = new javax.swing.JMenuItem();
+        jMenuItem24 = new javax.swing.JMenuItem();
+        jMenuItem25 = new javax.swing.JMenuItem();
+        jMenu7 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jMenu1.setBorder(null);
-        jMenu1.setText("Item");
+        jDesktopPane1.setBackground(new java.awt.Color(0, 102, 153));
 
-        crearItem.setText("Crear");
-        crearItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                crearItemActionPerformed(evt);
-            }
-        });
-        jMenu1.add(crearItem);
-        crearItem.getAccessibleContext().setAccessibleName("");
+        javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
+        jDesktopPane1.setLayout(jDesktopPane1Layout);
+        jDesktopPane1Layout.setHorizontalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 761, Short.MAX_VALUE)
+        );
+        jDesktopPane1Layout.setVerticalGroup(
+            jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 383, Short.MAX_VALUE)
+        );
 
-        modificarItem.setText("Modificar");
-        modificarItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                modificarItemActionPerformed(evt);
-            }
-        });
-        jMenu1.add(modificarItem);
+        jMenuBar2.setBackground(new java.awt.Color(0, 0, 51));
+        jMenuBar2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jMenuBar2.setForeground(new java.awt.Color(51, 255, 255));
 
-        borrarItem.setText("Borrar");
-        jMenu1.add(borrarItem);
+        jMenu3.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu3.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Item.png"))); // NOI18N
+        jMenu3.setText("Item");
+        jMenu3.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        consultarItem.setText("Consultar");
-        jMenu1.add(consultarItem);
+        jMenuItem1.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem1.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem1.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/crearItem.png"))); // NOI18N
+        jMenuItem1.setText("Crear");
+        jMenu3.add(jMenuItem1);
 
-        jMenuBar1.add(jMenu1);
+        jMenuItem3.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem3.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem3.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/modificarItem.png"))); // NOI18N
+        jMenuItem3.setText("Modificar");
+        jMenu3.add(jMenuItem3);
 
-        jMenu2.setBorder(null);
-        jMenu2.setText("Usuario");
+        jMenuItem2.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem2.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem2.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/consultarItem.png"))); // NOI18N
+        jMenuItem2.setText("Consultar");
+        jMenu3.add(jMenuItem2);
 
-        crearUsuario.setText("Crear");
-        crearUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                crearUsuarioActionPerformed(evt);
-            }
-        });
-        jMenu2.add(crearUsuario);
+        jMenuItem4.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem4.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem4.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/borrarItem.png"))); // NOI18N
+        jMenuItem4.setText("Borrar");
+        jMenu3.add(jMenuItem4);
 
-        modificarUsuario.setText("Modificar");
-        modificarUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                modificarUsuarioActionPerformed(evt);
-            }
-        });
-        jMenu2.add(modificarUsuario);
+        jMenuBar2.add(jMenu3);
 
-        borrarUsuario.setText("Borrar");
-        jMenu2.add(borrarUsuario);
+        jMenu2.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu2.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Persona.png"))); // NOI18N
+        jMenu2.setText("Persona");
+        jMenu2.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        consultarUsuario.setText("Consultar");
-        jMenu2.add(consultarUsuario);
+        jMenuItem5.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem5.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem5.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/crearPersona.png"))); // NOI18N
+        jMenuItem5.setText("Crear");
+        jMenu2.add(jMenuItem5);
 
-        jMenuBar1.add(jMenu2);
+        jMenuItem6.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem6.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem6.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/modificarPersona.png"))); // NOI18N
+        jMenuItem6.setText("Modificar");
+        jMenu2.add(jMenuItem6);
 
-        jMenu3.setBorder(null);
-        jMenu3.setText("Categoría");
+        jMenuItem7.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem7.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem7.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/consultarPersona.png"))); // NOI18N
+        jMenuItem7.setText("Consultar");
+        jMenu2.add(jMenuItem7);
 
-        crearCategoria.setText("Crear");
-        crearCategoria.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                crearCategoriaActionPerformed(evt);
-            }
-        });
-        jMenu3.add(crearCategoria);
+        jMenuItem8.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem8.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem8.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/borrarPersona.png"))); // NOI18N
+        jMenuItem8.setText("Borrar");
+        jMenu2.add(jMenuItem8);
 
-        modificarCategoria.setText("Modificar");
-        modificarCategoria.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                modificarCategoriaActionPerformed(evt);
-            }
-        });
-        jMenu3.add(modificarCategoria);
+        jMenuBar2.add(jMenu2);
 
-        borrarCategoria.setText("Borrar");
-        jMenu3.add(borrarCategoria);
+        jMenu4.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu4.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/Categoría.png"))); // NOI18N
+        jMenu4.setText("Categoría");
+        jMenu4.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        consutarCategoria.setText("Consultar");
-        jMenu3.add(consutarCategoria);
+        jMenuItem9.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem9.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem9.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/crearCategoría.png"))); // NOI18N
+        jMenuItem9.setText("Crear");
+        jMenu4.add(jMenuItem9);
 
-        jMenuBar1.add(jMenu3);
+        jMenuItem10.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem10.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem10.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/modificarCategoría.png"))); // NOI18N
+        jMenuItem10.setText("Modificar");
+        jMenu4.add(jMenuItem10);
 
-        jMenu4.setBorder(null);
-        jMenu4.setText("Tipo");
+        jMenuItem11.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem11.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem11.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/consultaCategoría.png"))); // NOI18N
+        jMenuItem11.setText("Consultar");
+        jMenu4.add(jMenuItem11);
 
-        crearTipo.setText("Crear");
-        crearTipo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                crearTipoActionPerformed(evt);
-            }
-        });
-        jMenu4.add(crearTipo);
-        crearTipo.getAccessibleContext().setAccessibleName("Crear");
+        jMenuItem12.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem12.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem12.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/borrarCategoría.png"))); // NOI18N
+        jMenuItem12.setText("Borrar");
+        jMenu4.add(jMenuItem12);
 
-        modificarTipo.setText("Modificar");
-        modificarTipo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                modificarTipoActionPerformed(evt);
-            }
-        });
-        jMenu4.add(modificarTipo);
+        jMenuBar2.add(jMenu4);
 
-        borrarTipo.setText("Borrar");
-        jMenu4.add(borrarTipo);
+        jMenu1.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu1.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu1.setText("Tipo");
+        jMenu1.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        consultarTipo.setText("Consultar");
-        jMenu4.add(consultarTipo);
+        jMenuItem13.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem13.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem13.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem13.setText("Crear");
+        jMenu1.add(jMenuItem13);
 
-        jMenuBar1.add(jMenu4);
-        jMenu4.getAccessibleContext().setAccessibleName("crearTipo");
+        jMenuItem14.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem14.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem14.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem14.setText("Modificar");
+        jMenu1.add(jMenuItem14);
 
-        jMenu5.setBorder(null);
+        jMenuItem15.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem15.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem15.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem15.setText("Consultar");
+        jMenu1.add(jMenuItem15);
+
+        jMenuItem16.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem16.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem16.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem16.setText("Borrar");
+        jMenu1.add(jMenuItem16);
+
+        jMenuBar2.add(jMenu1);
+
+        jMenu5.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu5.setForeground(new java.awt.Color(51, 255, 255));
         jMenu5.setText("Préstamo");
-        jMenuBar1.add(jMenu5);
+        jMenu5.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        jMenu6.setBorder(null);
+        jMenuItem17.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem17.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem17.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem17.setText("Hacer Préstamo");
+        jMenu5.add(jMenuItem17);
+
+        jMenuItem18.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem18.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem18.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem18.setText("Agregar Item");
+        jMenu5.add(jMenuItem18);
+
+        jMenuItem19.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem19.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem19.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem19.setText("Eiminar Item");
+        jMenu5.add(jMenuItem19);
+
+        jMenuItem20.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem20.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem20.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem20.setText("Retornar Item");
+        jMenu5.add(jMenuItem20);
+
+        jMenuItem21.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem21.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem21.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem21.setText("Finalizar Préstamo");
+        jMenu5.add(jMenuItem21);
+
+        jMenuBar2.add(jMenu5);
+
+        jMenu6.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu6.setForeground(new java.awt.Color(51, 255, 255));
         jMenu6.setText("Reporte");
-        jMenuBar1.add(jMenu6);
+        jMenu6.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
 
-        setJMenuBar(jMenuBar1);
+        jMenuItem22.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem22.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem22.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem22.setText("Por Usuario");
+        jMenu6.add(jMenuItem22);
+
+        jMenuItem23.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem23.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem23.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem23.setText("Por Item");
+        jMenu6.add(jMenuItem23);
+
+        jMenuItem24.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem24.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem24.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem24.setText("Por Categoria");
+        jMenu6.add(jMenuItem24);
+
+        jMenuItem25.setBackground(new java.awt.Color(0, 51, 51));
+        jMenuItem25.setFont(new java.awt.Font("Berlin Sans FB Demi", 0, 14)); // NOI18N
+        jMenuItem25.setForeground(new java.awt.Color(255, 255, 255));
+        jMenuItem25.setText("Por Tipo");
+        jMenu6.add(jMenuItem25);
+
+        jMenuBar2.add(jMenu6);
+
+        jMenu7.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu7.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu7.setText("Acerca");
+        jMenu7.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
+        jMenuBar2.add(jMenu7);
+
+        jMenu8.setBackground(new java.awt.Color(51, 255, 255));
+        jMenu8.setForeground(new java.awt.Color(51, 255, 255));
+        jMenu8.setText("Salir");
+        jMenu8.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
+        jMenuBar2.add(jMenu8);
+
+        setJMenuBar(jMenuBar2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 761, Short.MAX_VALUE)
+            .addComponent(jDesktopPane1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 430, Short.MAX_VALUE)
+            .addComponent(jDesktopPane1)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void crearItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearItemActionPerformed
-        // TODO add your handling code here:
-        new CrearItem(this, true).setVisible(true);
-    }//GEN-LAST:event_crearItemActionPerformed
-
-    private void crearTipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearTipoActionPerformed
-        // TODO add your handling code here:
-        new CrearTipo (this, true).setVisible(true);
-    }//GEN-LAST:event_crearTipoActionPerformed
-
-    private void modificarItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modificarItemActionPerformed
-        // TODO add your handling code here:
-        new ModificarItem(this, true).setVisible(true);
-    }//GEN-LAST:event_modificarItemActionPerformed
-
-    private void crearUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearUsuarioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_crearUsuarioActionPerformed
-
-    private void modificarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modificarUsuarioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_modificarUsuarioActionPerformed
-
-    private void crearCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearCategoriaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_crearCategoriaActionPerformed
-
-    private void modificarCategoriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modificarCategoriaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_modificarCategoriaActionPerformed
-
-    private void modificarTipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modificarTipoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_modificarTipoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -259,28 +353,40 @@ public class VP extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem borrarCategoria;
-    private javax.swing.JMenuItem borrarItem;
-    private javax.swing.JMenuItem borrarTipo;
-    private javax.swing.JMenuItem borrarUsuario;
-    private javax.swing.JMenuItem consultarItem;
-    private javax.swing.JMenuItem consultarTipo;
-    private javax.swing.JMenuItem consultarUsuario;
-    private javax.swing.JMenuItem consutarCategoria;
-    private javax.swing.JMenuItem crearCategoria;
-    private javax.swing.JMenuItem crearItem;
-    private javax.swing.JMenuItem crearTipo;
-    private javax.swing.JMenuItem crearUsuario;
+    private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
-    private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem modificarCategoria;
-    private javax.swing.JMenuItem modificarItem;
-    private javax.swing.JMenuItem modificarTipo;
-    private javax.swing.JMenuItem modificarUsuario;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
+    private javax.swing.JMenuItem jMenuItem18;
+    private javax.swing.JMenuItem jMenuItem19;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem20;
+    private javax.swing.JMenuItem jMenuItem21;
+    private javax.swing.JMenuItem jMenuItem22;
+    private javax.swing.JMenuItem jMenuItem23;
+    private javax.swing.JMenuItem jMenuItem24;
+    private javax.swing.JMenuItem jMenuItem25;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }
